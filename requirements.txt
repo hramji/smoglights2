@@ -1,0 +1,9 @@
+streamlit>=1.46
+textstat>=0.7.4
+pyphen                        # hyphenation dictionaries (syllable counting); also a textstat dependency
+pandas>=2.0
+openpyxl
+xlsxwriter
+xlrd                          # only needed for legacy .xls uploads
+lingua-language-detector>=2.0 # optional: per-cell language auto-detection
+pytest                        # tests only
